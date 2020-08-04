@@ -1,0 +1,37 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: zull-gateway-service
+
+# 配置Eureka地址
+eureka:
+  client:
+    serviceUrl:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://localhost:8761/eureka
+
+# 配置网关反向代理，例如访问/api-member/** 直接重定向到member-service服务,实现路由转发，隐藏服务的真实ip(服务都实在内网中)
+#zull根据服务名，去Eureka获取服务真实地址，并通过本地转发，而且默认开启Ribbon实现负载均衡
+#默认读取Eureka注册列表 默认30秒间隔
+zuul:
+  routes:
+    # 这里可以自定义
+    api-a:
+      # 匹配的路由规则
+      path: /api-eureka-client/**
+      # 路由的目标服务名
+      serviceId: config-eureka-client
+    api-b:
+      path: /api-eureka-server/**
+      serviceId: config-eureka-server
+    # 关闭使用eureka负载路由
+#ribbon:
+#  eureka:
+#    enabled: false
+# 如果不使用eureka的话，需要自己定义路由的那个服务的其他负载服务
+#demo:
+#  ribbon:
+    # 这里写你要路由的demo服务的所有负载服务请求地址，本项目只启动一个，因此只写一个
+#    listOfServers: http://localhost:8090/

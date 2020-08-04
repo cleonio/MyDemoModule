@@ -1,0 +1,16 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false #单点的时候设置为 false 禁止注册自身
+    fetch-registry: false  #\u5355\u673A\u7248\u5EFA\u8BAE\u8BBE\u7F6E\u4E3Afalse\uFF0C\u8BBE\u7F6Efalse\u7684\u76EE\u7684\u662F\u9632\u6B62\u81EA\u5DF1\u53D1\u73B0\u81EA\u5DF1\uFF0C\u96C6\u7FA4\u7248\u91C7\u7528\u9ED8\u8BA4\u7684true
+spring:
+  application:
+    name: eureka-server    # \u5E94\u7528\u540D.fetch-registry=false
+
+logging:
+  pattern:
+    level: error
+    file: eureka-server.log
+
+

@@ -1,0 +1,17 @@
+server:
+  port: 8021
+
+spring:
+  application:
+  #\u7ED9\u9879\u76EE\u6765\u4E2A\u540D\u5B57
+    name: rabbitmq-provider
+  #\u914D\u7F6ErabbitMq \u670D\u52A1\u5668
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-idle: 300
+        max-active: 600
+        max-wait: 1000

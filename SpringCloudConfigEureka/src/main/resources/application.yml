@@ -1,0 +1,10 @@
+server:
+  port: 3012
+eureka:
+  client:
+    serviceUrl:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    preferIpAddress: true

@@ -1,0 +1,20 @@
+server:
+  port: 8021
+
+spring:
+  application:
+  #\u7ED9\u9879\u76EE\u6765\u4E2A\u540D\u5B57
+    name: rabbitmq-provider
+  #\u914D\u7F6ErabbitMq \u670D\u52A1\u5668
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    #\u865A\u62DFhost \u53EF\u4EE5\u4E0D\u8BBE\u7F6E,\u4F7F\u7528server\u9ED8\u8BA4host
+    #virtual-host: JCcccHost(\u9700\u8981\u5F00\u901A)
+    virtual-host: ykh_vhosts
+    #\u6D88\u606F\u786E\u8BA4\u914D\u7F6E\u9879
+    #\u786E\u8BA4\u6D88\u606F\u5DF2\u53D1\u9001\u5230\u4EA4\u6362\u673A(Exchange)
+    publisher-confirms: true
+    #\u786E\u8BA4\u6D88\u606F\u5DF2\u53D1\u9001\u5230\u961F\u5217(Queue)
+    publisher-returns: true

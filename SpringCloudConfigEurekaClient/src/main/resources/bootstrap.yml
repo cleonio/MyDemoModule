@@ -1,0 +1,41 @@
+eureka:
+  client:
+    serviceUrl:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    preferIpAddress: true
+
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: prod
+  application:
+    name: config-eureka-client
+  cloud:
+    config:
+      name: config-eureka-client-prod
+      label: master
+      profile: prod
+      discovery:
+        enabled: true
+        service-id: config-eureka-server
+
+
+---
+spring:
+  profiles: dev
+  application:
+    name: config-eureka-client
+  cloud:
+    config:
+      name: config-eureka-client-dev #可以不填，cloud-config 根据application.name和profile确定文件
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: config-eureka-server
