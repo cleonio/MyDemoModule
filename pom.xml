@@ -26,6 +26,9 @@
         <module>SpringCloudConfigEureka</module>
         <module>SpringCloudConfigEurekaClient</module>
         <module>SpringCloudZuul</module>
+        <module>Netty-springboot</module>
+        <module>spring-security</module>
+        <module>spring-security-v2</module>
     </modules>
 
     <parent>

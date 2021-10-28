@@ -1,0 +1,35 @@
+package com.jimmy.nettyServer;
+
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.ChannelPipeline;
+import io.netty.channel.socket.SocketChannel;
+
+/**
+ * @author xiongyang
+ * @date 2020/8/6 10:30
+ * @Description:
+ *
+ * 这是一个初始化器，chanel注册后会执行里面相应的初始化方法(也就是将handler逐个进行添加)
+ */
+public class HelloNettyServerInitializer extends ChannelInitializer<SocketChannel> {
+
+
+    @Override
+    protected void initChannel(SocketChannel socketChannel) throws Exception {
+        //通过socketChannel去获得对应的管道
+        ChannelPipeline channelPipeline = socketChannel.pipeline();
+
+        /**
+         * pipeline中会有很多handler类（也称之拦截器类）
+         * 获得pipeline之后，可以直接.add，添加不管是自己开发的handler还是netty提供的handler
+         */
+
+        //一般来讲添加到last即可，添加了一个handler并且取名为HttpServerCodec
+        //当请求到达服务端，要做解码，响应到客户端做编码
+        //channelPipeline.addLast("HttpServerCodec", new HttpServerCodec());
+        //添加自定义的CustomHandler这个handler，返回Hello Netty
+        channelPipeline.addLast("customHandler", new CustomHandler());
+
+
+    }
+}

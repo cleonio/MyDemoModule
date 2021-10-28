@@ -1,28 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BaseUtil" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BaseUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BaseUtil/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ElasticSearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ElasticSearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ElasticSearch/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MiniAppLogin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MiniAppLogin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MiniAppLogin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Netty-Client-Springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Netty-Client-Springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Netty-Server-Springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Netty-Server-Springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Netty-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Netty-springboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RabbitMQ-Spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMQ-Spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMQ-Spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RabbitMQ-Springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMQ-Springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMQ-Springboot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RabbitMQ-Springboot/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMQ/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMQ/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redis-Spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Redis-Spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Redis-Spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redis-Springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Redis-Springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Redis-Springboot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Shiro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Shiro/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudConfig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudConfig/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudConfigClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudConfigClient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudConfigClinetAuto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudConfigClinetAuto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudConfigClinetAuto/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudConfigEureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudConfigEureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudConfigEureka/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudConfigEurekaClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudConfigEurekaClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudConfigEurekaClient/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudEurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudEurekaServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudEurekaServer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudEurekaServer/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudZuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudZuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Task" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Task/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Test/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Thread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Thread/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-v2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

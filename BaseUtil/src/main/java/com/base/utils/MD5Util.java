@@ -38,4 +38,10 @@ public class MD5Util {
 
         return sb.toString();
     }
+
+    public static void main(String[] args) {
+        String s = "你好";
+        String encode = encode(s);
+
+    }
 }

@@ -2,28 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BaseUtil" />
-        <module name="MiniAppLogin" />
-        <module name="RabbitMQ" />
-        <module name="RabbitMQ-Spring" />
-        <module name="RabbitMQ-Springboot" />
-        <module name="Redis-Spring" />
-        <module name="Redis-Springboot" />
-        <module name="Shiro" />
-        <module name="SpringCloudConfig" />
+        <module name="SpringCloudEurekaServer" />
+        <module name="Task" />
+        <module name="SpringCloudConfigEureka" />
+        <module name="Netty-Client-Springboot" />
+        <module name="spring-security-v2" />
         <module name="SpringCloudConfigClient" />
         <module name="SpringCloudConfigClinetAuto" />
-        <module name="SpringCloudConfigEureka" />
-        <module name="SpringCloudConfigEurekaClient" />
-        <module name="SpringCloudEurekaServer" />
-        <module name="SpringCloudZuul" />
-        <module name="Task" />
+        <module name="Shiro" />
         <module name="Test" />
+        <module name="Netty-springboot" />
+        <module name="Netty-Maven" />
+        <module name="MiniAppLogin" />
+        <module name="Redis-Spring" />
+        <module name="RabbitMQ-Spring" />
+        <module name="RabbitMQ-Springboot" />
+        <module name="MQ" />
+        <module name="BaseUtil" />
+        <module name="SpringCloudConfigEurekaClient" />
         <module name="Thread" />
+        <module name="RabbitMQ" />
+        <module name="spring-security" />
+        <module name="Netty-Server-Springboot" />
+        <module name="SpringCloudZuul" />
+        <module name="SpringCloudConfig" />
+        <module name="Redis-Springboot" />
       </profile>
     </annotationProcessing>
   </component>
@@ -31,7 +39,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BaseUtil" options="-parameters" />
       <module name="ElasticSearch" options="" />
+      <module name="MQ" options="-parameters" />
       <module name="MiniAppLogin" options="-parameters" />
+      <module name="Netty-Client-Springboot" options="-parameters" />
+      <module name="Netty-Server-Springboot" options="-parameters" />
+      <module name="Netty-springboot" options="-parameters" />
       <module name="RabbitMQ" options="-parameters" />
       <module name="RabbitMQ-Spring" options="" />
       <module name="RabbitMQ-Springboot" options="-parameters" />
@@ -47,6 +59,8 @@
       <module name="Task" options="-parameters" />
       <module name="Test" options="-parameters" />
       <module name="Thread" options="-parameters" />
+      <module name="spring-security" options="-parameters" />
+      <module name="spring-security-v2" options="-parameters" />
     </option>
   </component>
 </project>

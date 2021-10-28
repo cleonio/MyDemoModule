@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Thread/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudConfigClient/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty-Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty-Client-Springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty-Server-Springboot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
