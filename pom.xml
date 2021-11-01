@@ -29,6 +29,7 @@
         <module>Netty-springboot</module>
         <module>spring-security</module>
         <module>spring-security-v2</module>
+        <module>spring-security-v3</module>
     </modules>
 
     <parent>

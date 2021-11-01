@@ -35,7 +35,8 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 
         if(SecurityContextHolder.getContext().getAuthentication()!=null){
 
-            System.out.println("111");//filterChain.doFilter(httpServletRequest, httpServletResponse);
+            System.out.println("111");
+            filterChain.doFilter(httpServletRequest, httpServletResponse);
         }else {
             String token = jwtService.getTokenFromRequest(httpServletRequest);
             if (StringUtils.isNotEmpty(token)){
@@ -45,7 +46,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
                             loginUser.getPassword(), loginUser.getAuthorities());
                     authenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
                     SecurityContextHolder.getContext().setAuthentication(authenticationToken);
-
+                    filterChain.doFilter(httpServletRequest, httpServletResponse);
 
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -54,6 +55,6 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
             }
         }
 
-        filterChain.doFilter(httpServletRequest, httpServletResponse);
+
     }
 }
