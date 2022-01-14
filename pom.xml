@@ -30,6 +30,7 @@
         <module>spring-security</module>
         <module>spring-security-v2</module>
         <module>spring-security-v3</module>
+        <module>Excel-utils</module>
     </modules>
 
     <parent>

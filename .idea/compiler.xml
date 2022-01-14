@@ -13,6 +13,7 @@
         <module name="spring-security-v3" />
         <module name="Netty-Client-Springboot" />
         <module name="spring-security-v2" />
+        <module name="Excel-utils" />
         <module name="SpringCloudConfigClient" />
         <module name="SpringCloudConfigClinetAuto" />
         <module name="Shiro" />
@@ -40,6 +41,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BaseUtil" options="-parameters" />
       <module name="ElasticSearch" options="" />
+      <module name="Excel-utils" options="-parameters" />
       <module name="MQ" options="-parameters" />
       <module name="MiniAppLogin" options="-parameters" />
       <module name="Netty-Client-Springboot" options="-parameters" />
